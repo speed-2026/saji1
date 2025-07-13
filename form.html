@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: inline-block;
+      width: 250px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 300px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Celebration Registration Form</h2>
+
+  <form>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone number</label>
+      <input type="text" id="phone" />
+    </div>
+
+    <div class="form-group">
+      <label for="section">Section Name</label>
+      <input type="text" id="section" />
+    </div>
+
+    <div class="form-group">
+      <label for="designation">Designation</label>
+      <input type="text" id="designation" />
+    </div>
+
+    <div class="form-group">
+      <label for="sex">Sex</label>
+      <select id="sex">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="count">Number of persons attending the celebration</label>
+      <input type="number" id="count" />
+    </div>
+
+    <div class="form-group">
+      <label for="child">Nubber of audlt</label>
+      <input type="audlt" id="audlt" />
+    </div>
+
+     <div class="form-group">
+      <label for="child">child lessthan 5 years</label>
+      <input type="text" id="child" />
+    </div>
+
+        <div class="form-group">
+      <label for="attent">Are you attented 2023 speed celebration</label>
+      <select id="attent">
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="attent">Are you attented 2025 speed celebration</label>
+      <select id="attent">
+        <option value="yes">YES</option>
+        <option value="no">NO</option>
+      </select>
+    </div>
+
+<button class="registernow">Submit</button>
+  </form>
+</body>
+</html>
