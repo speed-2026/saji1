@@ -56,7 +56,10 @@ footer{
 
 .registernow{
 	position: center;
+	color: green;
+	font-family:sans-serif;
+	padding: 5px;
 	font-size: 25px;
-	color: red;
 	font-weight: bold;
+}
 	
