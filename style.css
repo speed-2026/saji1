@@ -55,13 +55,42 @@ footer{
 
 
 .registernow{
-	position: center;
+ background-color: #7c3aed;     /* Purple color */
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; margin:20px auto;
+}
+
+.registernow:hover {
+  background-color: #6a21dc;     /* Slightly darker purple on hover */
+}
+	
+}
+	
+.submit-button {
+  background-color: #7c3aed;     /* Purple color */
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: block; margin:20px auto;
+}
+
+.submit-button:hover {
+  background-color: #6a21dc;     /* Slightly darker purple on hover */
+}
+
+.fontcolour{
 	color: white;
-	font-family:sans-serif;
-	padding: 5px;
-	font-size: 20px;
-	font-weight: bold;
-	width: 99%;
-	background-color: darkviolet;
 }
 	
