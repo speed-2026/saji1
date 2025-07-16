@@ -1,37 +1,60 @@
 <!DOCTYPE html>
-<html>
-<head></head>
+<html lang="ml">
+<head>
+  <meta charset="UTF-8">
+  <title>SPEED CELEBRATION</title>
+</head>
+<h2>WELCOME TO SPEED CELEBRATION</h2>
+<h3>A positive Community with KSEB Employees</h3>
+<body>
 <link rel="stylesheet" type="text/css" href="style.css">
-<body class="bodyfistpage">
+  <!-- 20 images -->
+  <div class="image-container"><img src="img4.jpg" alt="Image 4"></div>
+  <div class="image-container"><img src="img5.jpg" alt="Image 5"></div>
+  <div class="image-container"><img src="img6.jpg" alt="Image 6"></div>
+  <div class="image-container"><img src="img8.jpg" alt="Image 8"></div>
+  <div class="image-container"><img src="img9.jpg" alt="Image 9"></div>
+  <div class="image-container"><img src="img10.jpg" alt="Image 10"></div>
+  <div class="image-container"><img src="img11.jpg" alt="Image 11"></div>
+  <div class="image-container"><img src="img12.jpg" alt="Image 12"></div>
+  <div class="image-container"><img src="img13.jpg" alt="Image 13"></div>
+  <div class="image-container"><img src="img14.jpg" alt="Image 14"></div>
+  <div class="image-container"><img src="img15.jpg" alt="Image 15"></div>
+  <div class="image-container"><img src="img16.jpg" alt="Image 16"></div>
+  <div class="image-container"><img src="img17.jpg" alt="Image 17"></div>
+  <div class="image-container"><img src="img18.jpg" alt="Image 18"></div>
+  <div class="image-container"><img src="img20.webp" alt="Image 19"></div>
+  <div class="image-container"><img src="img21.webp" alt="Image 20"></div>
+  <div class="image-container"><img src="img22.png" alt="Image 21"></div>
 
+  <button class="registration"
+  onclick="window.location.href='ConditionPage.html'">
+  CLECK HERE TO REGISTER SPEED CELEBRATION 2026
+  </button>
 
-	<h1 id="hedermodel">WELCOME TO SPEED</h1>
-
-
-	<h3>A positive Community with KSEB Employees</h3>
-
-
-	<img width="38%" height="360" src="image1.webp">
-	<img width="20%" height="360" src="director.JPG">
-	<img width="38%" height="360" src="image.webp">
-
-	<button class="registration"
-	onclick="window.location.href='ConditionPage.html'">
-	CLECK HERE TO REGISTER SPEED CELEBRATION 2026
-	</button>
-<br>
-	<button class="registration">
-	<a href="https://drive.google.com/drive/folders/16DVOE1LLTmCM8cwQ1Lf5eaye3GzrW6Wt?usp=drive_link" target="_blank" class="celebration-2023">
-	VIEW CELEBRATION 2023
-	</a>
-	</button>
+  <button class="registration">
+  <a href="https://drive.google.com/drive/folders/16DVOE1LLTmCM8cwQ1Lf5eaye3GzrW6Wt?usp=drive_link" target="_blank" class="registernow">
+  VIEW CELEBRATION 2023
+  </a>
+  </button>
 
 <button class="registration">
-<a href="https://drive.google.com/drive/folders/1v4Xv7_ud2PgQV7EiBxSez0cbEvh5h_42?usp=sharing" target="_blank" class="celebration-2025">
+<a href="https://drive.google.com/drive/folders/1v4Xv7_ud2PgQV7EiBxSez0cbEvh5h_42?usp=sharing" target="_blank" class="registernow">
 VIEW CELEBRATION 2025
 </a>
 </button>
-<img width="100%" src="images.png">
+
+  <script>
+    const containers = document.querySelectorAll('.image-container');
+    containers.forEach((container, index) => {
+      setTimeout(() => {
+        container.classList.add('visible');
+      }, index * 400); //
+    });
+  </script>
+
 </body>
-<footer>Maintened by Sajishkumar P B</footer>
+<footer>
+  Maintened by Sajishkumar P B
+</footer>
 </html>
